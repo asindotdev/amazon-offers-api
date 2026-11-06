@@ -27,6 +27,7 @@ Use it to watch resellers, check Amazon's own price or find the cheapest offer f
 - [Use cases](#use-cases)
 - [Why Asin?](#why-asin)
 - [FAQ](#faq)
+- [Official SDKs](#official-sdks)
 - [Related repositories](#related-repositories)
 - [Support](#support)
 
@@ -374,6 +375,22 @@ Yes: [Python](https://github.com/asindotdev/asin-python), [Node.js & TypeScript]
 ### Which languages are supported?
 
 Any language that can make an HTTP request. This README shows Python and TypeScript; the [`examples/`](examples) folder contains cURL, PHP, C#, Go, Java, Ruby and Node.js.
+
+## Official SDKs
+
+Use Asin from your own language with a typed client:
+
+| SDK | Package | Install |
+| --- | --- | --- |
+| Node.js | [`@asindev/sdk`](https://www.npmjs.com/package/@asindev/sdk) | `npm install @asindev/sdk` |
+| Python | [`asindotdev`](https://pypi.org/project/asindotdev/) | `pip install asindotdev` |
+| Go | [`asin-go`](https://pkg.go.dev/github.com/asindotdev/asin-go) | `go get github.com/asindotdev/asin-go` |
+| .NET | [`Asin`](https://www.nuget.org/packages/Asin) | `dotnet add package Asin` |
+| Ruby | [`asindotdev`](https://rubygems.org/gems/asindotdev) | `gem install asindotdev` |
+| PHP | [`asindotdev/sdk`](https://packagist.org/packages/asindotdev/sdk) | `composer require asindotdev/sdk` |
+| Java | [`asin-java`](https://github.com/asindotdev/asin-java) | build from source, see its README |
+| CLI | [`@asindev/cli`](https://www.npmjs.com/package/@asindev/cli) | `npm install -g @asindev/cli` |
+| MCP server | [`@asindev/mcp`](https://www.npmjs.com/package/@asindev/mcp) | `npx -y @asindev/mcp` |
 
 ## Related repositories
 
